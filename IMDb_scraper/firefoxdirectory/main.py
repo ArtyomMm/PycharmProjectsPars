@@ -19,6 +19,10 @@ from bs4 import BeautifulSoup
 from multiprocessing import Pool
 from typing import Any
 
+# Do not forget about .env file with
+# EMAIL="YUOR_EMAIL"
+# PASSWORD="YOUR_PASSWORD"
+# .env file should be in project folder as .gitignore is located.
 
 headers = {
     "profession": "director",
